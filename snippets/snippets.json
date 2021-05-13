@@ -1,0 +1,26 @@
+{
+    "emitServer": {
+      "prefix": "emitServer",
+      "body": [
+        "emitServer(${1:module})"
+      ]
+    },
+    "emitClient": {
+      "prefix": "emitClient",
+      "body": [
+        "emitClient(${1:module}; ${2:player})"
+      ]
+    },
+    "ESX.LogWarning": {
+       "prefix": "ESX.LogWarning",
+       "body": [
+           "ESX.LogWarning()"
+       ]       
+    },
+    "module.Init": {
+        "prefix": "module.Init",
+        "body": [
+            "module.Init()"
+        ]       
+     }
+}

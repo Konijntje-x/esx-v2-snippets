@@ -1,0 +1,26 @@
+{
+    "name": "esx-v2-snippets",
+    "displayName": "ESX-V2-snippets",
+    "description": "Snippets for ESX2, made with a partnership with ESX-framework.",
+    "version": "1.0.1",
+    "publisher": "Konijntje-x",
+    "icon": "esx.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Konijntje-x/esx-v2-snippets"
+    },
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "lua",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
