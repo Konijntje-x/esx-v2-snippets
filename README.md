@@ -34,8 +34,8 @@ Initial. version. Basic commands are here.
 
 * [ESX Framework discord server](https://discord.gg/ztzKWAF)
 * [ESX Github page](https://github.com/esx-framework)
-* [ESX forum] (https://forum.esx-framework.org/)
-* [Discord] (konijntje-x#4389)
+* [ESX forum](https://forum.esx-framework.org)
+* Discord: konijntje-x#4389
 
 
 **License**
