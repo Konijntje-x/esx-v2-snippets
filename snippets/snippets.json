@@ -14,13 +14,68 @@
     "ESX.LogWarning": {
        "prefix": "ESX.LogWarning",
        "body": [
-           "ESX.LogWarning()"
+           "ESX.LogWarning(${1:})"
        ]       
     },
     "module.Init": {
         "prefix": "module.Init",
         "body": [
-            "module.Init()"
+            "module.Init(${1:})"
         ]       
-     }
+     },
+    "ESX.SetInterval": {
+        "prefix": "ESX.SetInterval",
+        "body": [
+            "ESX.SetInterval(${1:1}; ${2:funtion()})"
+        ]
+    },
+    "Menu.CloseAll":   {
+        "prefix": "Menu.CloseAll",
+        "body": [
+            "Menu.CloseAll(${1:})"
+        ]
+    },
+    "ESX.IsDead": {
+        "prefix": "ESX.IsDead",
+        "body": [
+            "ESX.IsDead"
+        ]
+    },
+    "utils.game.isPlayerInZone": {
+        "prefix": "utils.game.isPlayerInZone",
+        "body": [
+            "utils.game.isPlayerInZone(${1:})"
+        ]
+    },
+    "module.RegisterControls": {
+        "prefix": "module.RegisterControls",
+        "body": [
+            "module.RegisterControls(${1:})"
+        ]
+    },
+    "on": {
+        "prefix": "on",
+        "body": [
+            "on(${1:}; ${2:function()})"
+        ]
+    },
+    "skin.SaveUpdatedComponent": {
+        "prefix": "skin.SaveUpdatedComponent",
+        "body": [
+            "skin.SaveUpdatedComponent(${1:component}; ${2:drawable}; ${3:texture})"
+        ]
+    },
+    "onServer": {
+        "prefix": "onServer",
+        "body": [
+            "onServer(${1:name}; ${2:function()})"
+        ]
+    },
+    "onClient": {
+        "prefix": "onClient",
+        "body": [
+            "onClient(${1:name}; ${2:function()})"
+        ]
+    }
+
 }
