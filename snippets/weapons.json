@@ -1,0 +1,560 @@
+{
+    "WEAPON_KNIFE": {
+        "prefix": "WEAPON_KNIFE",
+        "body": [
+          "WEAPON_KNIFE"
+        ]
+    },
+    "WEAPON_KNUCKLE": {
+        "prefix": "WEAPON_KNUCKLE",
+        "body": [
+          "WEAPON_KNUCKLE"
+        ]
+    },
+    "WEAPON_NIGHTSTICK": {
+        "prefix": "WEAPON_NIGHTSTICK",
+        "body": [
+          "WEAPON_NIGHTSTICK"
+        ]
+    },
+    "WEAPON_HAMMER": {
+        "prefix": "WEAPON_HAMMER",
+        "body": [
+          "WEAPON_HAMMER"
+        ]
+    },
+    "WEAPON_BAT": {
+        "prefix": "WEAPON_BAT",
+        "body": [
+          "WEAPON_BAT"
+        ]
+    },
+    "WEAPON_CROWBAR": {
+        "prefix": "WEAPON_CROWBAR",
+        "body": [
+          "WEAPON_CROWBAR"
+        ]
+    },
+    "WEAPON_BOTTLE": {
+        "prefix": "WEAPON_BOTTLE",
+        "body": [
+          "WEAPON_BOTTLE"
+        ]
+    },
+    "WEAPON_DAGGER": {
+        "prefix": "WEAPON_DAGGER",
+        "body": [
+          "WEAPON_DAGGER"
+        ]
+    },
+    "WEAPON_HATCHET": {
+        "prefix": "WEAPON_HATCHET",
+        "body": [
+          "WEAPON_HATCHET"
+        ]
+    },
+    "WEAPON_MACHETE": {
+        "prefix": "WEAPON_MACHETE",
+        "body": [
+          "WEAPON_MACHETE"
+        ]
+    },
+    "WEAPON_FLASHLIGHT": {
+        "prefix": "WEAPON_FLASHLIGHT",
+        "body": [
+          "WEAPON_FLASHLIGHT"
+        ]
+    },
+    "WEAPON_SWITCHBLADE": {
+        "prefix": "WEAPON_SWITCHBLADE",
+        "body": [
+          "WEAPON_SWITCHBLADE"
+        ]
+    },
+    "WEAPON_PROXMINE": {
+        "prefix": "WEAPON_PROXMINE",
+        "body": [
+          "WEAPON_PROXMINE"
+        ]
+    },
+    "WEAPON_BZGAS": {
+        "prefix": "WEAPON_BZGAS",
+        "body": [
+          "WEAPON_BZGAS"
+        ]
+    },
+    "WEAPON_SMOKEGRENADE": {
+        "prefix": "WEAPON_SMOKEGRENADE",
+        "body": [
+          "WEAPON_SMOKEGRENADE"
+        ]
+    },
+    "WEAPON_MOLOTOV": {
+        "prefix": "WEAPON_MOLOTOV",
+        "body": [
+          "WEAPON_MOLOTOV"
+        ]
+    },
+    "WEAPON_FIREEXTINGUISHER": {
+        "prefix": "WEAPON_FIREEXTINGUISHER",
+        "body": [
+          "WEAPON_FIREEXTINGUISHER"
+        ]
+    },
+    "WEAPON_PETROLCAN": {
+        "prefix": "WEAPON_PETROLCAN",
+        "body": [
+          "WEAPON_PETROLCAN"
+        ]
+    },
+    "WEAPON_HAZARDCAN": {
+        "prefix": "WEAPON_HAZARDCAN",
+        "body": [
+          "WEAPON_HAZARDCAN"
+        ]
+    },
+    "WEAPON_SNOWBALL": {
+        "prefix": "WEAPON_SNOWBALL",
+        "body": [
+          "WEAPON_SNOWBALL"
+        ]
+    },
+    "WEAPON_FLARE": {
+        "prefix": "WEAPON_FLARE",
+        "body": [
+          "WEAPON_FLARE"
+        ]
+    }, 
+    "WEAPON_BALL": {
+        "prefix": "WEAPON_BALL",
+        "body": [
+          "WEAPON_BALL"
+        ]
+    },
+    "WEAPON_REVOLVER": {
+        "prefix": "WEAPON_REVOLVER",
+        "body": [
+          "WEAPON_REVOLVER"
+        ]
+    },  
+    "WEAPON_POOLCUE": {
+        "prefix": "WEAPON_POOLCUE",
+        "body": [
+          "WEAPON_POOLCUE"
+        ]
+    },
+    "WEAPON_PIPEWRENCH": {
+        "prefix": "WEAPON_PIPEWRENCH",
+        "body": [
+          "WEAPON_PIPEWRENCH"
+        ]
+    },
+    "WEAPON_PISTOL": {
+        "prefix": "WEAPON_PISTOL",
+        "body": [
+          "WEAPON_PISTOL"
+        ]
+    },
+    "WEAPON_PISTOL_MK2": {
+        "prefix": "WEAPON_PISTOL_MK2",
+        "body": [
+          "WEAPON_PISTOL_MK2"
+        ]
+    },
+    "WEAPON_COMBATPISTOL": {
+        "prefix": "WEAPON_COMBATPISTOL",
+        "body": [
+          "WEAPON_COMBATPISTOL"
+        ]
+    },
+    "WEAPON_APPISTOL": {
+        "prefix": "WEAPON_APPISTOL",
+        "body": [
+          "WEAPON_APPISTOL"
+        ]
+    },
+    "WEAPON_PISTOL50": {
+        "prefix": "WEAPON_PISTOL50",
+        "body": [
+          "WEAPON_PISTOL50"
+        ]
+    },
+    "WEAPON_SNSPISTOL": {
+        "prefix": "WEAPON_SNSPISTOL",
+        "body": [
+          "WEAPON_SNSPISTOL"
+        ]
+    },
+    "WEAPON_HEAVYPISTOL": {
+        "prefix": "WEAPON_HEAVYPISTOL",
+        "body": [
+          "WEAPON_HEAVYPISTOL"
+        ]
+    },
+    "WEAPON_VINTAGEPISTOL": {
+        "prefix": "WEAPON_VINTAGEPISTOL",
+        "body": [
+          "WEAPON_VINTAGEPISTOL"
+        ]
+    },
+    "WEAPON_STUNGUN": {
+        "prefix": "WEAPON_STUNGUN",
+        "body": [
+          "WEAPON_STUNGUN"
+        ]
+    },
+    "WEAPON_FLAREGUN": {
+        "prefix": "WEAPON_FLAREGUN",
+        "body": [
+          "WEAPON_FLAREGUN"
+        ]
+    },
+    "WEAPON_MARKSMANPISTOL": {
+        "prefix": "WEAPON_MARKSMANPISTOL",
+        "body": [
+          "WEAPON_MARKSMANPISTOL"
+        ]
+    },
+    "WEAPON_MICROSMG": {
+        "prefix": "WEAPON_MICROSMG",
+        "body": [
+          "WEAPON_MICROSMG"
+        ]
+    },
+    "WEAPON_MINISMG": {
+        "prefix": "WEAPON_MINISMG",
+        "body": [
+          "WEAPON_MINISMG"
+        ]
+    }, 
+    "WEAPON_SMG": {
+        "prefix": "WEAPON_SMG",
+        "body": [
+          "WEAPON_SMG"
+        ]
+    }, 
+    "WEAPON_SMG_MK2": {
+        "prefix": "WEAPON_SMG_MK2",
+        "body": [
+          "WEAPON_SMG_MK2"
+        ]
+    },  
+    "WEAPON_ASSAULTSMG": {
+        "prefix": "WEAPON_ASSAULTSMG",
+        "body": [
+          "WEAPON_ASSAULTSMG"
+        ]
+    },  
+    "WEAPON_MG": {
+        "prefix": "WEAPON_MG",
+        "body": [
+          "WEAPON_MG"
+        ]
+    },
+    "WEAPON_COMBATMG": {
+        "prefix": "WEAPON_COMBATMG",
+        "body": [
+          "WEAPON_COMBATMG"
+        ]
+    },  
+    "WEAPON_COMBATMG_MK2": {
+        "prefix": "WEAPON_COMBATMG_MK2",
+        "body": [
+          "WEAPON_COMBATMG_MK2"
+        ]
+    },
+    "WEAPON_COMBATPDW": {
+        "prefix": "WEAPON_COMBATPDW",
+        "body": [
+          "WEAPON_COMBATPDW"
+        ]
+    },   
+    "WEAPON_GUSENBERG": {
+        "prefix": "WEAPON_GUSENBERG",
+        "body": [
+          "WEAPON_GUSENBERG"
+        ]
+    },  
+    "WEAPON_MACHINEPISTOL": {
+        "prefix": "WEAPON_MACHINEPISTOL",
+        "body": [
+          "WEAPON_MACHINEPISTOL"
+        ]
+    }, 
+    "WEAPON_ASSAULTRIFLE": {
+        "prefix": "WEAPON_ASSAULTRIFLE",
+        "body": [
+          "WEAPON_ASSAULTRIFLE"
+        ]
+    }, 
+    "WEAPON_ASSAULTRIFLE_MK2": {
+        "prefix": "WEAPON_ASSAULTRIFLE_MK2",
+        "body": [
+          "WEAPON_ASSAULTRIFLE_MK2"
+        ]
+    }, 
+    "WEAPON_CARBINERIFLE": {
+        "prefix": "WEAPON_CARBINERIFLE",
+        "body": [
+          "WEAPON_CARBINERIFLE"
+        ]
+    }, 
+    "WEAPON_CARBINERIFLE_MK2": {
+        "prefix": "WEAPON_CARBINERIFLE_MK2",
+        "body": [
+          "WEAPON_CARBINERIFLE_MK2"
+        ]
+    },
+    "WEAPON_ADVANCEDRIFLE": {
+        "prefix": "WEAPON_ADVANCEDRIFLE",
+        "body": [
+          "WEAPON_ADVANCEDRIFLE"
+        ]
+    },
+    "WEAPON_SPECIALCARBINE": {
+        "prefix": "WEAPON_SPECIALCARBINE",
+        "body": [
+          "WEAPON_SPECIALCARBINE"
+        ]
+    },
+    "WEAPON_BULLPUPRIFLE": {
+        "prefix": "WEAPON_BULLPUPRIFLE",
+        "body": [
+          "WEAPON_BULLPUPRIFLE"
+        ]
+    },
+    "WEAPON_COMPACTRIFLE": {
+        "prefix": "WEAPON_COMPACTRIFLE",
+        "body": [
+          "WEAPON_COMPACTRIFLE"
+        ]
+    },
+    "WEAPON_PUMPSHOTGUN": {
+        "prefix": "WEAPON_PUMPSHOTGUN",
+        "body": [
+          "WEAPON_PUMPSHOTGUN"
+        ]
+    },
+    "WEAPON_SWEEPERSHOTGUN": {
+        "prefix": "WEAPON_SWEEPERSHOTGUN",
+        "body": [
+          "WEAPON_SWEEPERSHOTGUN"
+        ]
+    },
+    "WEAPON_SAWNOFFSHOTGUN": {
+        "prefix": "WEAPON_SAWNOFFSHOTGUN",
+        "body": [
+          "WEAPON_SAWNOFFSHOTGUN"
+        ]
+    },
+    "WEAPON_BULLPUPSHOTGUN": {
+        "prefix": "WEAPON_BULLPUPSHOTGUN",
+        "body": [
+          "WEAPON_BULLPUPSHOTGUN"
+        ]
+    },
+    "WEAPON_ASSAULTSHOTGUN": {
+        "prefix": "WEAPON_ASSAULTSHOTGUN",
+        "body": [
+          "WEAPON_ASSAULTSHOTGUN"
+        ]
+    },
+    "WEAPON_MUSKET": {
+        "prefix": "WEAPON_MUSKET",
+        "body": [
+          "WEAPON_MUSKET"
+        ]
+    },
+    "WEAPON_HEAVYSHOTGUN": {
+        "prefix": "WEAPON_HEAVYSHOTGUN",
+        "body": [
+          "WEAPON_HEAVYSHOTGUN"
+        ]
+    },
+    "WEAPON_DBSHOTGUN": {
+        "prefix": "WEAPON_DBSHOTGUN",
+        "body": [
+          "WEAPON_DBSHOTGUN"
+        ]
+    },
+    "WEAPON_SNIPERRIFLE": {
+        "prefix": "WEAPON_SNIPERRIFLE",
+        "body": [
+          "WEAPON_SNIPERRIFLE"
+        ]
+    },
+    "WEAPON_HEAVYSNIPER": {
+        "prefix": "WEAPON_HEAVYSNIPER",
+        "body": [
+          "WEAPON_HEAVYSNIPER"
+        ]
+    },
+    "WEAPON_HEAVYSNIPER_MK2": {
+        "prefix": "WEAPON_HEAVYSNIPER_MK2",
+        "body": [
+          "WEAPON_HEAVYSNIPER_MK2"
+        ]
+    },
+    "WEAPON_MARKSMANRIFLE": {
+        "prefix": "WEAPON_MARKSMANRIFLE",
+        "body": [
+          "WEAPON_MARKSMANRIFLE"
+        ]
+    },
+    "WEAPON_GRENADELAUNCHER": {
+        "prefix": "WEAPON_GRENADELAUNCHER",
+        "body": [
+          "WEAPON_GRENADELAUNCHER"
+        ]
+    },
+    "WEAPON_GRENADELAUNCHER_SMOKE": {
+        "prefix": "WEAPON_GRENADELAUNCHER_SMOKE",
+        "body": [
+          "WEAPON_GRENADELAUNCHER_SMOKE"
+        ]
+    },
+    "WEAPON_RPG": {
+        "prefix": "WEAPON_RPG",
+        "body": [
+          "WEAPON_RPG"
+        ]
+    },
+    "WEAPON_MINIGUN": {
+        "prefix": "WEAPON_MINIGUN",
+        "body": [
+          "WEAPON_MINIGUN"
+        ]
+    },
+    "WEAPON_FIREWORK": {
+        "prefix": "WEAPON_FIREWORK",
+        "body": [
+          "WEAPON_FIREWORK"
+        ]
+    },
+    "WEAPON_RAILGUN": {
+        "prefix": "WEAPON_RAILGUN",
+        "body": [
+          "WEAPON_RAILGUN"
+        ]
+    },
+    "WEAPON_HOMINGLAUNCHER": {
+        "prefix": "WEAPON_HOMINGLAUNCHER",
+        "body": [
+          "WEAPON_HOMINGLAUNCHER"
+        ]
+    },
+    "WEAPON_GRENADE": {
+        "prefix": "WEAPON_GRENADE",
+        "body": [
+          "WEAPON_GRENADE"
+        ]
+    },
+    "WEAPON_STICKYBOMB": {
+        "prefix": "WEAPON_STICKYBOMB",
+        "body": [
+          "WEAPON_STICKYBOMB"
+        ]
+    },
+    "WEAPON_COMPACTLAUNCHER": {
+        "prefix": "WEAPON_COMPACTLAUNCHER",
+        "body": [
+          "WEAPON_COMPACTLAUNCHER"
+        ]
+    },
+    "WEAPON_SNSPISTOL_MK2": {
+        "prefix": "WEAPON_SNSPISTOL_MK2",
+        "body": [
+          "WEAPON_SNSPISTOL_MK2"
+        ]
+    },
+    "WEAPON_REVOLVER_MK2": {
+        "prefix": "WEAPON_REVOLVER_MK2",
+        "body": [
+          "WEAPON_REVOLVER_MK2"
+        ]
+    },
+    "WEAPON_DOUBLEACTION": {
+        "prefix": "WEAPON_DOUBLEACTION",
+        "body": [
+          "WEAPON_DOUBLEACTION"
+        ]
+    },
+    "WEAPON_SPECIALCARBINE_MK2": {
+        "prefix": "WEAPON_SPECIALCARBINE_MK2",
+        "body": [
+          "WEAPON_SPECIALCARBINE_MK2"
+        ]
+    },
+    "WEAPON_BULLPUPRIFLE_MK2": {
+        "prefix": "WEAPON_BULLPUPRIFLE_MK2",
+        "body": [
+          "WEAPON_BULLPUPRIFLE_MK2"
+        ]
+    },
+    "WEAPON_PUMPSHOTGUN_MK2": {
+        "prefix": "WEAPON_PUMPSHOTGUN_MK2",
+        "body": [
+          "WEAPON_PUMPSHOTGUN_MK2"
+        ]
+    },
+    "WEAPON_MARKSMANRIFLE_MK2": {
+        "prefix": "WEAPON_MARKSMANRIFLE_MK2",
+        "body": [
+          "WEAPON_MARKSMANRIFLE_MK2"
+        ]
+    },
+    "WEAPON_RAYPISTOL": {
+        "prefix": "WEAPON_RAYPISTOL",
+        "body": [
+          "WEAPON_RAYPISTOL"
+        ]
+    },
+    "WEAPON_RAYCARBINE": {
+        "prefix": "WEAPON_RAYCARBINE",
+        "body": [
+          "WEAPON_RAYCARBINE"
+        ]
+    },
+    "WEAPON_RAYMINIGUN": {
+        "prefix": "WEAPON_RAYMINIGUN",
+        "body": [
+          "WEAPON_RAYMINIGUN"
+        ]
+    },
+    "WEAPON_DIGISCANNER": {
+        "prefix": "WEAPON_DIGISCANNER",
+        "body": [
+          "WEAPON_DIGISCANNER"
+        ]
+    },
+    "WEAPON_NAVYREVOLVER": {
+        "prefix": "WEAPON_NAVYREVOLVER",
+        "body": [
+          "WEAPON_NAVYREVOLVER"
+        ]
+    },
+    "WEAPON_CERAMICPISTOL": {
+        "prefix": "WEAPON_CERAMICPISTOL",
+        "body": [
+          "WEAPON_CERAMICPISTOL"
+        ]
+    },
+    "WEAPON_STONE_HATCHET": {
+        "prefix": "WEAPON_STONE_HATCHET",
+        "body": [
+          "WEAPON_STONE_HATCHET"
+        ]
+    },
+    "WEAPON_PIPEBOMB": {
+        "prefix": "WEAPON_PIPEBOMB",
+        "body": [
+          "WEAPON_PIPEBOMB"
+        ]
+    },
+    "GADGET_PARACHUTE": {
+        "prefix": "GADGET_PARACHUTE",
+        "body": [
+          "GADGET_PARACHUTE"
+        ]
+    },
+}
