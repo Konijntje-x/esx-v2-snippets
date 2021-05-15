@@ -1,16 +1,22 @@
 {
     "emitServer": {
-      "prefix": "emitServer",
-      "body": [
-        "emitServer(${1:module})"
-      ]
-    },
+        "prefix": "emitServer",
+        "body": [
+          "emitServer(${1:eventname}; ${2:eventparam1}; ${2:eventparam2})"
+        ]
+      },
     "emitClient": {
-      "prefix": "emitClient",
-      "body": [
-        "emitClient(${1:module}; ${2:player})"
-      ]
-    },
+        "prefix": "emitClient",
+        "body": [
+          "emitClient(${1:eventname}; ${2:eventparam1}; ${2:eventparam2})"
+        ]
+      },
+    "emit": {
+        "prefix": "emit",
+        "body": [
+          "emit(${1:eventname}; ${2:eventparam1}; ${2:eventparam2})"
+        ]
+      },
     "ESX.LogWarning": {
        "prefix": "ESX.LogWarning",
        "body": [
@@ -56,7 +62,7 @@
     "on": {
         "prefix": "on",
         "body": [
-            "on(${1:}; ${2:function()})"
+            "on(${1:eventname}; ${2:function()})"
         ]
     },
     "skin.SaveUpdatedComponent": {
@@ -68,14 +74,319 @@
     "onServer": {
         "prefix": "onServer",
         "body": [
-            "onServer(${1:name}; ${2:function()})"
+            "onServer(${1:eventname}; ${2:function()})"
         ]
     },
     "onClient": {
         "prefix": "onClient",
         "body": [
-            "onClient(${1:name}; ${2:function()})"
+            "onClient(${1:eventname}; ${2:function()})"
         ]
-    }
-
+    },
+    "on('esx:player:death'": {
+       "prefix": "on('esx:player:death'",
+       "body": [
+           "on('esx:player:death', function(${1:data})"
+       ]
+    },
+    "utils.printWarning": {
+        "prefix": "utils.printWarning",
+        "body": [
+            "utils.printWarning(${1:src})"
+        ]
+    },
+    "utils.game.isAnimalModel": {
+        "prefix": "utils.game.isAnimalModel",
+        "body": [
+            "utils.game.isAnimalModel(${1:nameOrHash})"
+        ]
+    },
+    "utils.game.isFreemodeModel": {
+        "prefix": "utils.game.isFreemodeModel",
+        "body": [
+            "utils.game.isFreemodeModel(${1:nameOrHash})"
+        ]
+    },
+    "utils.game.isHumanModel": {
+        "prefix": "utils.game.isHumanModel",
+        "body": [
+            "utils.game.isHumanModel(${1:nameOrHash})"
+        ]
+    },
+    "math.groupDigits": {
+        "prefix": "math.groupDigits",
+        "body": [
+            "math.groupDigits(${1:value})"
+        ]
+    },
+    "math.round": {
+        "prefix": "math.round",
+        "body": [
+            "math.round(${1:value}; ${2:numDecimalPlaces})"
+        ]
+    },
+    "math.roundVec3": {
+        "prefix": "math.roundVec3",
+        "body": [
+            "math.roundVec3(${1:vec}; ${2:digits})"
+        ]
+    },
+    "utils.random.inRange": {
+        "prefix": "utils.random.inRange",
+        "body": [
+            "utils.random.inRange(${1:min}; ${2:max})"
+        ]
+    },
+    "utils.random.isLucky": {
+        "prefix": "utils.random.isLucky",
+        "body": [
+            "utils.random.isLucky(${1:percentChance}; ${2:cb}; ${3:callCbOnUnlucky})"
+        ]
+    },
+    "utils.string.parsetpl": {
+        "prefix": "utils.string.parsetpl",
+        "body": [
+            "utils.string.parsetpl(${1:tpl}; ${2:data})"
+        ]
+    },
+    "utils.string.random": {
+        "prefix": "utils.string.random",
+        "body": [
+            "utils.string.random(${1:lenght}; ${2:recurse})"
+        ]
+    },
+    "utils.table.dump": {
+        "prefix": "utils.table.dump",
+        "body": [
+            "utils.table.dump(${1:table})"
+        ]
+    },
+    "utils.time.fromTimestamp": {
+        "prefix": "utils.time.fromTimestamp",
+        "body": [
+            "utils.time.fromTimestamp(${1:timestamp})"
+        ]
+    },
+    "utils.vehicle.generateRandomPlate": {
+        "prefix": "utils.vehicle.generateRandomPlate",
+        "body": [
+            "utils.vehicle.generateRandomPlate(${1:})"
+        ]
+    },
+    "utils.weapon.get": {
+        "prefix": "utils.weapon.get",
+        "body": [
+            "utils.weapon.get(${1:weaponName})"
+        ]
+    },
+    "utils.weapon.getAll": {
+        "prefix": "utils.weapon.getAll",
+        "body": [
+            "utils.weapon.getAll(${1:})"
+        ]
+    },
+    "utils.weapon.getComponent": {
+        "prefix": "utils.weapon.getComponent",
+        "body": [
+            "utils.weapon.getComponent(${1:weaponName}; ${2:weaponComponent})"
+        ]
+    },
+    "utils.weapon.getFromHash": {
+        "prefix": "utils.weapon.getFromHash",
+        "body": [
+            "utils.weapon.getFromHash(${1:weaponHash})"
+        ]
+    },
+    "utils.weapon.getLabel": {
+        "prefix": "utils.weapon.getLabel",
+        "body": [
+            "utils.weapon.getLabel(${1:weaponName})"
+        ]
+    },
+    "utils.game.createLocalObject": {
+        "prefix": "utils.game.createLocalObject",
+        "body": [
+            "utils.game.createLocalObject(${1:model}; ${2:coords}; ${3:cb})"
+        ]
+    },
+    "utils.game.createLocalVehicle": {
+        "prefix": "utils.game.createLocalVehicle",
+        "body": [
+            "utils.game.createLocalVehicle(${1:model}; ${2:coords}; ${3:heading}; ${4:cb})"
+        ]
+    },
+    "utils.game.createObject": {
+        "prefix": "utils.game.createObject",
+        "body": [
+            "utils.game.createObject(${1:model}; ${2:coords}; ${3:cb})"
+        ]
+    },
+    "utils.game.createVehicle": {
+        "prefix": "utils.game.createVehicle",
+        "body": [
+            "utils.game.createVehicle(${1:model}; ${2:coords}; ${3:heading}; ${4:cb})"
+        ]
+    },
+    "utils.game.doSpawn": {
+        "prefix": "utils.game.doSpawn",
+        "body": [
+            "utils.game.doSpawn(${1:data}; ${2:cb})"
+        ]
+    },
+    "EnumerateObjects": {
+        "prefix": "EnumerateObjects",
+        "body": [
+            "EnumerateObjects(${1:})"
+        ]
+    },
+    "EnumeratePeds": {
+        "prefix": "EnumeratePeds",
+        "body": [
+            "EnumeratePeds(${1:})"
+        ]
+    },
+    "EnumeratePickups": {
+        "prefix": "EnumeratePickups",
+        "body": [
+            "EnumeratePickups(${1:})"
+        ]
+    },
+    "EnumerateVehicles": {
+        "prefix": "EnumerateVehicles",
+        "body": [
+            "EnumerateVehicles(${1:})"
+        ]
+    },
+    "utils.game.requestModel": {
+        "prefix": "utils.game.requestModel",
+        "body": [
+            "utils.game.requestModel(${1:model}; ${2:cb})"
+        ]
+    },
+    "HUD.RegisterElement": {
+        "prefix": "HUD.RegisterElement",
+        "body": [
+            "HUD.RegisterElement(${1:name}; ${2:index}; $ {3:priority}; ${4:html}; ${5:data})"
+        ]
+    },
+    "HUD.RemoveElement": {
+        "prefix": "HUD.RemoveElement",
+        "body": [
+            "HUD.RemoveElement(${1:name})"
+        ]
+    },
+    "Input.DisableControl": {
+        "prefix": "Input.DisableControl",
+        "body": [
+            "Input.DisableControl(${1:group}; {2:id})"
+        ]
+    },
+    "Input.EnableControl": {
+        "prefix": "Input.EnableControl",
+        "body": [
+            "Input.EnableControl(${1:group}; {2:id})"
+        ]
+    },
+    "Input.IsControlEnabled": {
+        "prefix": "Input.IsControlEnabled",
+        "body": [
+            "Input.IsControlEnabled(${1:group}; {2:id})"
+        ]
+    },
+    "Input.IsControlPressed": {
+        "prefix": "Input.IsControlPressed",
+        "body": [
+            "Input.IsControlPressed(${1:group}; {2:id})"
+        ]
+    },
+    "Input.IsControlRegistered": {
+        "prefix": "Input.IsControlRegistered",
+        "body": [
+            "Input.IsControlRegistered(${1:group}; {2:id})"
+        ]
+    },
+    "Input.IsDisabledControlPressed": {
+        "prefix": "Input.IsDisabledControlPressed",
+        "body": [
+            "Input.IsDisabledControlPressed(${1:group}; {2:id})"
+        ]
+    },
+    "Input.RegisterControl": {
+        "prefix": "Input.RegisterControl",
+        "body": [
+            "Input.RegisterControl(${1:group}; {2:id})"
+        ]
+    },
+    "Input.UnregisterControl": {
+        "prefix": "Input.UnregisterControl",
+        "body": [
+            "Input.UnregisterControl(${1:group}; {2:id})"
+        ]
+    },
+    "Input.Register": {
+        "prefix": "Input.Register",
+        "body": [
+            "Input.Register(${1:data})"
+        ]
+    },
+    "utils.math.polar3DToWorld3D": {
+        "prefix": "utils.math.polar3DToWorld3D",
+        "body": [
+            "utils.math.polar3DToWorld3D(${1:center}; ${2:polar}; $ {3:azimuth}; ${4:radius})"
+        ]
+    },
+    "utils.math.rotateAround": {
+        "prefix": "utils.math.rotateAround",
+        "body": [
+            "utils.math.rotateAround(${1:p1}; ${2:p2}; $ {3:angle})"
+        ]
+    },
+    "utils.math.screen2DToWorld3D": {
+        "prefix": "utils.math.screen2DToWorld3D",
+        "body": [
+            "utils.math.screen2DToWorld3D(${1:x}; ${2:y}; $ {3:fov}; ${4:near}; ${5:far}; ${6:right}; ${7:forward}; ${8:up}; ${9:at})"
+        ]
+    },
+    "utils.math.world3DtoPolar3D": {
+        "prefix": "utils.math.world3DtoPolar3D",
+        "body": [
+            "utils.math.world3DtoPolar3D(${1:center}; ${2:position})"
+        ]
+    },
+    "utils.time.timestamp": {
+        "prefix": "utils.time.timestamp",
+        "body": [
+            "utils.time.timestamp(${1:})"
+        ]
+    },
+    "Menu:destroy": {
+        "prefix": "Menu:destroy",
+        "body": [
+            "Menu:destroy(${1:})"
+        ]
+    },
+    "utils.ui.howFloatingHelpNotification": {
+        "prefix": "utils.ui.howFloatingHelpNotification",
+        "body": [
+            "utils.ui.howFloatingHelpNotification(${1:message}; ${2:coords}; ${3:timeout})"
+        ]
+    },
+    "utils.ui.showAdvancedNotification": {
+        "prefix": "utils.ui.showAdvancedNotification",
+        "body": [
+            "utils.ui.showAdvancedNotification(${1:sender}; ${2:subject}; ${3:msg}; ${4:textureDict}; ${5:iconType}; ${6:flash}; ${7:saveToBrief}; ${8:hudColorIndex})"
+        ]
+    },
+    "utils.ui.showHelpNotification": {
+        "prefix": "utils.ui.showHelpNotification",
+        "body": [
+            "utils.ui.showHelpNotification(${1:msg}; ${2:thisFrame}; ${3:beep}; {4:duration})"
+        ]
+    },
+    "utils.ui.showNotification": {
+        "prefix": "utils.ui.showNotification",
+        "body": [
+            "utils.ui.showNotification(${1:msg})"
+        ]
+    },
 }
