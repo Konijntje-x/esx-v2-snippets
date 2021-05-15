@@ -10,6 +10,7 @@ Included:
  - ESX 2 snippets
  - All GTAV weapon "spawn" names
  - All GTAV vehicles spawn names
+    - Vehicles from: 17/12/2020. Vehicle Count: 723
 
  ^^ all these features are seperate available on the marketplace (for free ofcourse), not on Github.
 
@@ -25,7 +26,7 @@ None.
 
 ## Release Notes
 
-There is none ESX2 documentation right now. If he comes, this extensios will be updated.
+None.
 
 ### 1.0.0
 
@@ -35,7 +36,8 @@ Initial version. Handler and basic ESX2 commands.
  
 Added all GTAV vehicle spawnnames and all GTAV weapon names
 (They will be seperate available at the marketplace, not at Github.)
-Added a pair of commands, they will be listed if the ESX2 documentation is ready.
+Added ESX2 commands. 
+(They will also be seperate available.)
 
 
 -----------------------------------------------------------------------------------------------------------
