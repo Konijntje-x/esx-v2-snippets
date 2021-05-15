@@ -388,5 +388,5 @@
         "body": [
             "utils.ui.showNotification(${1:msg})"
         ]
-    },
+    }
 }

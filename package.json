@@ -52,7 +52,7 @@
             {
                 "language": "js",
                 "path": "./snippets/snippets.json"
-            },
+            }
         ]
     }
 }
