@@ -48,7 +48,11 @@ Added ESX2 commands.
 
 * [ESX Framework discord server](https://discord.gg/ztzKWAF)
 * [ESX Github page](https://github.com/esx-framework)
+<<<<<<< HEAD
 * [ESX forum](https://forum.esx-framework.org/)
+=======
+* [ESX forum](https://forum.esx-framework.org)
+>>>>>>> c25cfc5d340eb569b56e09248f6f1182585c21fc
 * Discord: konijntje-x#4389
 
 
