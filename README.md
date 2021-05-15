@@ -6,11 +6,17 @@ This extension is made in partnership with ESX-framework.
 ## Features
 
 It gives you good snippets for ESX2.
+Included: 
+ - ESX 2 snippets
+ - All GTAV weapon "spawn" names
+ - All GTAV vehicles spawn names
+
+ ^^ all these features are seperate available on the marketplace (for free ofcourse), not on Github.
 
 
 ## Requirements
 
-There are now requirements!
+There are none requirements!
 
 
 ## Known Issues
@@ -23,7 +29,13 @@ There is none ESX2 documentation right now. If he comes, this extensios will be 
 
 ### 1.0.0
 
-Initial. version. Basic commands are here.
+Initial version. Handler and basic ESX2 commands.
+
+### 1.1.0
+ 
+Added all GTAV vehicle spawnnames and all GTAV weapon names
+(They will be seperate available at the marketplace, not at Github.)
+Added a pair of commands, they will be listed if the ESX2 documentation is ready.
 
 
 -----------------------------------------------------------------------------------------------------------
@@ -34,8 +46,8 @@ Initial. version. Basic commands are here.
 
 * [ESX Framework discord server](https://discord.gg/ztzKWAF)
 * [ESX Github page](https://github.com/esx-framework)
-* [ESX forum] (https://forum.esx-framework.org/)
-* [Discord] (konijntje-x#4389)
+* [ESX forum](https://forum.esx-framework.org/)
+* Discord: konijntje-x#4389
 
 
 **License**
