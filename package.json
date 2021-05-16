@@ -2,9 +2,10 @@
     "name": "esx-v2-snippets",
     "displayName": "ESX-V2-snippets",
     "description": "Snippets for ESX2, made with a partnership with ESX-framework. This extension has ESX V2 snippets and all the GTA vehicles spawnnames and GTA weapon 'spawn' names. They are all separate available.",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "publisher": "Konijntje-x",
     "icon": "esx.png",
+    "license": "SEE LICENSE IN LICENSE.md",
     "repository": {
         "type": "git",
         "url": "https://github.com/Konijntje-x/esx-v2-snippets.git"
