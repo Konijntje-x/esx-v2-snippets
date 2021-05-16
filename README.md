@@ -39,6 +39,11 @@ Added all GTAV vehicle spawnnames and all GTAV weapon names
 Added ESX2 commands. 
 (They will also be seperate available.)
 
+### 1.1.1
+
+Update: readme.md
+Update: license
+
 
 -----------------------------------------------------------------------------------------------------------
 
@@ -48,23 +53,13 @@ Added ESX2 commands.
 
 * [ESX Framework discord server](https://discord.gg/ztzKWAF)
 * [ESX Github page](https://github.com/esx-framework)
-<<<<<<< HEAD
 * [ESX forum](https://forum.esx-framework.org/)
-=======
 * [ESX forum](https://forum.esx-framework.org)
->>>>>>> c25cfc5d340eb569b56e09248f6f1182585c21fc
 * Discord: konijntje-x#4389
 
 
 **License**
-konijntje-x#4389 - ESX-framework
 
-Copyright (C) 2021 konijntje-x#4389
-
-This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
-
-This program Is distributed In the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty Of MERCHANTABILITY Or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License For more details.
-
-You should have received a copy Of the GNU General Public License along with this program. If Not, see http://www.gnu.org/licenses/.
+See LICENSE.md
 
 **Enjoy!**
